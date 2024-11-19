@@ -5,7 +5,6 @@ In the **YouTube Recommendation System** project, you developed a **content-base
 - You extracted your YouTube watch history data from **Google Takeout**, which provided a JSON file containing details like video titles, channel names, timestamps, and more.
 - This data was converted into a CSV format for easier processing and analysis.
 
----
 
 ### 2. **Data Preprocessing**  
 - **Cleaning and Handling Missing Data**:
@@ -15,7 +14,6 @@ In the **YouTube Recommendation System** project, you developed a **content-base
 - **Feature Engineering**:
   - Combined the `title` and `channelname` columns into a single feature (`combined_features`) to create a richer representation of each video.
 
----
 
 ### 3. **Content-Based Filtering Implementation**  
 - **TF-IDF Vectorization**:
@@ -23,7 +21,6 @@ In the **YouTube Recommendation System** project, you developed a **content-base
 - **Cosine Similarity**:
   - Computed the **cosine similarity** between all videos to measure their similarity based on their vector representations. This similarity metric ranges between 0 (no similarity) and 1 (perfect similarity).
 
----
 
 ### 4. **Recommendation Function**  
 - Built a function to:
@@ -31,7 +28,6 @@ In the **YouTube Recommendation System** project, you developed a **content-base
   - Find and sort the most similar videos using the cosine similarity matrix.
   - Display the top 5 recommended videos for a selected video.
 
----
 
 ### 5. **Visualization**  
 - **Heatmap of Cosine Similarity**:
